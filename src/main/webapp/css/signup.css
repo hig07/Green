@@ -1,0 +1,130 @@
+@charset "UTF-8";
+a{
+	text-decoration: none;
+	color: #000;
+}
+li{
+	list-style: none;
+}
+.flex{	display: flex;}
+.column{flex-direction: column;}
+.center{justify-content: center;}
+.between{justify-content: space-between;}
+.around{justify-content: space-around;}
+.centerAlign{text-align: center;}
+
+
+.view-size{
+	width: 350px;
+}
+
+header>.wrapL>a{
+	display: inline-block;
+	margin-top:5px;
+	width: 136px;
+	height: 26px;
+	background-image: url("../images/naver_logo.png");
+	background-repeat: no-repeat;
+	text-align: left;
+}
+
+header>.view-sizeL{
+	width: 150px;
+}
+
+header>.wrapL{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	font-size: 30px;
+}
+
+main{
+	text-align: -webkit-center;
+	margin-top: 10px;
+}
+
+main>.wrap{
+	margin-top: 48px;
+}
+
+main>.wrap form{
+	border-color: #FFF;
+	text-align: center;
+}
+
+main>.wrap form div{
+	text-align: left;
+}
+
+main>.wrap form div>h5{
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+main>.wrap form div>input{
+	width:94%;
+	padding: 13px 10px 13px;
+}
+
+main>.wrap form div input[type=text]{
+	border-radius: 5px;
+	background-color: #F7F7F7;
+	border: 1px solid #dadada;
+}
+
+main>.wrap form div input[type=password]{
+	border-radius: 5px;
+	background-color: #F7F7F7;
+	border: 1px solid #dadada;
+}
+
+main>.wrap form div input:hover {
+	border-color: #0000FF;
+}
+
+main>.wrap form div input:focus{
+	border-color: #0000FF;
+}
+
+main>.wrap>ul{
+	padding-left: 0px;
+}
+
+main>.wrap>ul li:nth-of-type(3){
+	border-right: none;
+}
+
+main>.wrap>ul li a{
+	padding: 0 10px;
+}
+
+main>.wrap>ul li a:hover{
+	color: #0000FF;
+}
+
+main>.wrap form div>button{
+	color: #FFF;
+	background-color: #4799EF;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+}
+
+main>.wrap form div>button:hover{
+	background-color: #3D70CE;
+}
+
+footer{
+	text-align: -webkit-center;
+	margin-top: 40px;
+}
+
+footer>.wrap>ul{
+	padding-left: 0px;
+}
+
