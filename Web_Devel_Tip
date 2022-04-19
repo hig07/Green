@@ -8,3 +8,5 @@ scope(범위) -----> 데이터를 저장
 ServletContext sc =  config.getServletContext(); 
 이미 존재하는 메모리에 접근하는 것
 따라서 서버가 끝날 때까지 존재, 서버가 끝나면 소멸
+
+context.xml 에서 데이터 소스는 driverClassName, url, username, password
