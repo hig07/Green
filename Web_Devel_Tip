@@ -1,1 +1,10 @@
 404 상태 -> 코드 url 주소부터 확인
+
+Life Cycle
+scope(범위) -----> 데이터를 저장
+컨트롤러에서 init 메서드를 통해 scope 지정
+혹은 어떤 메서드 내 객체는 메서드 실행할 때 생성, 끝날 때 소멸
+
+ServletContext sc =  config.getServletContext(); 
+이미 존재하는 메모리에 접근하는 것
+따라서 서버가 끝날 때까지 존재, 서버가 끝나면 소멸
